@@ -1,0 +1,49 @@
+header {
+    background-color: #e6091f;
+    height: 50px;
+}
+
+.navbar-brand {
+
+    font-weight: bold;
+
+}
+
+.btn-primary {
+    margin-left: 141px;
+    margin-top: -61px;
+}
+
+.login-page {
+    float: right;
+    margin-top: -33px;
+}
+
+.btn-success {
+    margin-right: 14px;
+}
+
+.social-icon {
+    text-align: center;
+    margin-top: -54px;
+}
+
+.social-icon>a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+
+}
+
+.social-icon>a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.login {
+    position: relative;
+    background-color: red;
+
+    margin-top: 100px;
+}

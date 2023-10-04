@@ -1,0 +1,36 @@
+footer {
+    margin-top: 183px;
+}
+
+
+
+.footer-content {
+    background-color: rgb(230, 247, 230);
+    text-align: center;
+}
+
+textarea {
+    position: absolute;
+    /* margin-top: 2px; */
+    /* left: 186px; */
+    /* right: 492px; */
+    top: 568px;
+}
+
+.navbar {
+    justify-content: space-around;
+
+}
+
+.footer-navbar>ul {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    list-style: none;
+
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}

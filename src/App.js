@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route } from "react-router-dom";
+import { Home } from './Component/Home';
+import ListingApi from './Component/ListingApi/ListingApi';
+import RestaurantDetail from './Component/RestaurantDetail/RestaurantDetail';
+import Details from './Component/Details/Details';
+import { PlaceOrder } from './Component/PlaceOrder/PlaceOrder';
+import Login from './Component/Authentication/Login';
+import Register from './Component/Authentication/Register';
+import { ViewOrder } from './Component/PlaceOrder/ViewOrder';
+
+
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+
+      <div className="App">
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/listing/:mealId" component={ListingApi}></Route>
+
+        <Route path="/restaurantDetail" component={RestaurantDetail}></Route>
+        <Route path="/details" component={Details}></Route>
+        <Route path="/placeOrder/:restName" component={PlaceOrder}></Route>
+        <Route path="/login" component={Login}></Route>
+        <Route path="/register" component={Register}></Route>
+        <Route path="/viewBooking" component={ViewOrder}></Route>
+
+
+
+
+        <Footer />
+
+
+      </div>
+    </BrowserRouter>
   );
 }
 

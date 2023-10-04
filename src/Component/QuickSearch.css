@@ -1,0 +1,14 @@
+.quick-search {
+    margin-left: 69px;
+    margin-top: 20px;
+}
+
+.card-quick {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 200px 250px;
+    width: 350px;
+    height: 200px;
+    background-color: turquoise;
+    gap: 20px;
+}

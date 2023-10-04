@@ -1,0 +1,44 @@
+.content-card {}
+
+
+
+
+
+
+
+.container-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 150px 200px 200px;
+    width: 100%;
+    height: 250px;
+    gap: 40px;
+    align-content: space-between;
+    align-items: center;
+    justify-items: start;
+    justify-content: space-evenly;
+}
+
+
+
+
+.content-para {
+    column-span: 2fr;
+    margin-left: 192px;
+    position: absolute;
+    margin-top: 3px;
+}
+
+.content-image {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.content-image>img {
+    width: 100%;
+    height: 150px;
+
+}

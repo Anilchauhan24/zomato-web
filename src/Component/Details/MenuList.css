@@ -1,0 +1,17 @@
+.menuItemlist {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+
+.menuItemlist>img {
+    object-fit: contain;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,6 @@
+.radio-check {
+    display: flex;
+    flex-direction: column;
+    color: tomato;
+    font-weight: bold;
+}

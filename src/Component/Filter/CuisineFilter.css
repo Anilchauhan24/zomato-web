@@ -1,0 +1,7 @@
+.food-center {
+    display: flex;
+    flex-direction: column;
+
+    color: tomato;
+    font-weight: bold;
+}
