@@ -1,3 +1,5 @@
+
+
 import { Component } from "react";
 import Header from "../../Header";
 import "./Register.css";
@@ -78,3 +80,4 @@ export default class Register extends Component {
         )
     }
 }
+

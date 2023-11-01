@@ -1,5 +1,6 @@
-import { Component } from "react";
 import "./MenuList.css";
+
+import { Component } from "react";
 
 export default class MenuList extends Component {
 
@@ -7,7 +8,7 @@ export default class MenuList extends Component {
 
     placeOrder = (id) => {
         this.orderId.push(id);
-        // console.log(this.orderId);
+        console.log(this.orderId);
 
         this.props.finalOrder(this.orderId)
         console.log(this.props.finalOrder);

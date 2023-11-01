@@ -59,6 +59,7 @@ export default class Header extends Component {
                 <div className="login-page">
                     {this.conditionalHeader()};
                 </div>
+
                 <div className="social-icon h5">
                     <a href="www.facebook.com" target="_blank"><i className="fa-brands fa-facebook"></i>Facebook</a>
                     <a href="www.twitter.com" target="_blank"><i className="fa-brands fa-twitter"></i>Twitter</a>
@@ -85,5 +86,6 @@ export default class Header extends Component {
 
 
     }
+
 }
 

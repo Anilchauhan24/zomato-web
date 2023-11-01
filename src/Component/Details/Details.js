@@ -1,5 +1,8 @@
+
 import axios from "axios";
 import Header from "../../Header";
+
+
 import { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Link } from "react-router-dom/";
@@ -9,6 +12,8 @@ import "./Detail.css";
 
 
 const durl = "http://localhost:4000";
+
+
 
 export default class Details extends Component {
 
@@ -162,3 +167,4 @@ export default class Details extends Component {
         this.setState({ detail: response.data[0], menuList: menuData.data })
     }
 }
+
